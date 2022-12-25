@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: "eddaz/python_conda_base"
+    volumes:
+      - ./workspace:/home
+    container_name: python_env
+    tty: true

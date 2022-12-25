@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: "eddaz/python_poetry"
+    volumes:
+      - ./workspace:/home
+    container_name: poetry_env
+    tty: true
