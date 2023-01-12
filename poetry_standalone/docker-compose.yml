@@ -3,6 +3,6 @@ services:
   app:
     image: "eddaz/poetry_standalone"
     volumes:
-      - ./workspace:/home
+      - ./workspace:/root/workspace
     container_name: poetry_standalone
     tty: true
