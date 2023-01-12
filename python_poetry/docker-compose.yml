@@ -5,6 +5,6 @@ services:
     # image: "eddaz/python_poetry"
     build: .
     volumes:
-      - ./workspace:/home
+      - ./workspace:/root/workspace
     container_name: poetry_env
     tty: true

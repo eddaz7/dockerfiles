@@ -5,6 +5,6 @@ services:
     # image: "eddaz/python_conda_base"
     build: .
     volumes:
-      - ./workspace:/home
+      - ./workspace:/root/workspace
     container_name: python_env
     tty: true

@@ -3,6 +3,6 @@ services:
   app:
     image: "rust"
     volumes:
-      - ./workspace:/home
+      - ./workspace:/root/workspace
     container_name: rust_env
     tty: true
