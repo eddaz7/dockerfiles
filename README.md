@@ -1,3 +1,3 @@
 ### Dockerfiles repo
 
-Este es un repositorio para mis imagenes dockerfiles
+This repo contains custom dockerfiles and docker compose to set up custom dev environments
