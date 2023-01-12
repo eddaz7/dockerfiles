@@ -1,7 +1,9 @@
 version: "3"
 services:
   app:
-    image: "eddaz/python_poetry"
+    # if you want to download built image uncomment line 5 and comment line 6
+    # image: "eddaz/python_poetry"
+    build: .
     volumes:
       - ./workspace:/home
     container_name: poetry_env
