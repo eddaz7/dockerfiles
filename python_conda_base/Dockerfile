@@ -2,10 +2,7 @@
 FROM ubuntu
 
 #Update packages
-RUN apt update -y && apt upgrade -y
-
-#Install wget and curl
-RUN apt install curl wget -y
+RUN apt update -y && apt install curl wget default-jre -y
 
 #Install miniconda
 ENV PATH="/root/miniconda3/bin:${PATH}"
