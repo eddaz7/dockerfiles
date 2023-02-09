@@ -14,10 +14,8 @@ RUN . /root/.bashrc
 
 #Update and configure miniconda
 RUN conda config --add channels conda-forge && \
-conda config --set channel_priority strict && \
-conda update conda -y && conda update --all -y
+conda config --set channel_priority strict
 
 #Update to libmamba solver for a speedup
 #RUN conda install conda-libmamba-solver && \
-#conda config --set solver libmamba && \
-#conda update conda -y && conda update --all -y
+#conda config --set solver libmamba
